@@ -1,0 +1,10 @@
+name: llm-summarizer  # Name of your environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8  # Specify your desired Python version
+  - pip
+  - pip:
+      - transformers
+      - torch
